@@ -1,0 +1,49 @@
+.Location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.schoolmap-title{
+    text-align: center;
+}
+
+.schoolmap-content{
+    text-align: center;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+.details{
+    padding: 10px;
+}
+
+.setschooldetail{
+    padding-left: 10vw;
+}
+
+.mapiframe{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+ }
+
+
+@media only screen and (max-width: 830px) {
+    .Location{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    flex-direction: column;
+    }
+
+    .mapiframe{
+    width: 350px;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    }
+}
+
+/* ------------------------------------------------Contact us css ----------------------------------------*/
