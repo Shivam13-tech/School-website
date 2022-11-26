@@ -47,3 +47,239 @@
 }
 
 /* ------------------------------------------------Contact us css ----------------------------------------*/
+
+.visually-hidden{
+    display: none;
+}
+
+#committee{
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-decoration: underline;
+}
+
+#committee-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-container{
+    width: 20vw;
+    margin: 15px;
+}
+
+.staff-img-container{
+    width: 20vw;
+    height: 30vh;
+}
+
+.staff-img{
+    width: 100%;
+    height: 100%;
+}
+
+.staff-info-title{
+    text-align: center;
+}
+
+.staff-info-position{
+    text-align: center;
+}
+
+#about-title{
+    text-align: center;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+#about-us{
+    text-align: center;
+    margin: 20px;
+}
+
+#vision-title{
+    text-align: center;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+#vision{
+    text-align: center;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 830px) {
+    #committee{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    #committee-card{
+        flex-direction: column;
+    }
+
+    .card-container{
+        width: 100vw;
+        margin: 0;
+    }
+    
+    .staff-img-container{
+        width: 100vw;
+        height: 30vh;
+    }
+
+    #about-us{
+        text-align: start;
+    }
+
+    #vision{
+        text-align: start;
+    }
+}
+
+/* ------------------------------------------------About us css ----------------------------------------*/
+
+#collage-image-container{
+    width: 100%;
+    height: 70vh;
+}
+
+.collage-image{
+    width: 100%;
+    height: 100%;
+}
+
+.event-title{
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+.event-image-container{
+    width: 30vw;
+    height: 30vh;
+    margin-right: 10vw;
+}
+
+.event-image-container2{
+    width: 30vw;
+    height: 30vh;
+    margin-left: 10vw;
+}
+
+.event-image{
+    width: 100%;
+    height: 100%;
+}
+
+#event-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#event-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#event-container3{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#event-container4{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#event-container5{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.event-title-name{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.event-title-info{
+    text-align: center;
+    width: 20vw;
+}
+
+@media only screen and (max-width: 830px) {
+    #event-container1{
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    #event-container2{
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    #event-container3{
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    #event-container4{
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    #event-container5{
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .event-image-container{
+        width: 100%;
+        height: 30vh;
+        margin: 10px;
+    }
+
+    .event-image-container2{
+        width: 100%;
+        height: 30vh;
+        margin: 10px;
+    }
+
+    .event-title-info{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .event-title{
+        margin-top: 8vh;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-bottom: 8vh;
+    }
+}
